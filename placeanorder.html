@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/placeanoder.css"/>
+		<script src="js/width.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			to.setFontSize(18);
+			window.onload = function(){
+				window.onresize = function(){
+					to.setFontSize(18);
+				}
+			}
+		</script>
+		<title>自助下单</title>
+	</head>
+	<body>
+		
+		
+		
+<!--		顶部-->
+		<div class="heatop">
+			<ul class="clearlr">
+				<li><a href="javascript:history.go(-1)"><img src="images/leftjt.png"/></a></li>
+				<li>自助订单</li>
+				<li></li>
+			</ul>
+		</div>
+		
+		
+<!--		填写信息项-->
+		<div class="write">
+			<form action="">
+				<div class="impor">
+					<span>车牌号码</span>
+					<div class="xiala">
+						<p>粤  <img src="images/placedor06.png"/></p>
+						<div>
+							
+						</div>
+					</div>
+					<input type="text" placeholder="请输入车牌号码"/>
+				</div>
+				<div class="impor">
+					<span>车身架号</span><input type="text" placeholder="请输入车身架号后6位"/>
+					<span><img src="images/placedor05.png"/></span>
+				</div>
+				<div class="impor">
+					<span>发动机号</span><input type="text" placeholder="请输入发动机号后6位"/>
+					<span><img src="images/placedor05.png"/></span>
+				</div>
+				<div class="impor">
+					<p><span>备注</span></p>
+					<textarea name="" rows="" cols=""></textarea>
+				</div>
+				
+				
+				<div class="disclosure">
+					<p>行驶证信息  <img src="images/placedor05.png"/></p>
+					<p>
+						1、请提供清晰的图片，拍照时请防止反光；
+					</p>
+					<p>
+						2、行驶信息仅用于认证，我们将为您严格保密。
+					</p>
+				</div>
+				
+				
+<!--				照片上传-->
+				<div class="picture">
+					<ul class="clearlr">
+						<li>
+							<img src="images/placedor01.png"/>
+							<p>行驶证正本</p>
+							<div>
+								<img src="images/placedor03.png"/>
+							</div>
+						</li>
+						<li>
+							<img src="images/placedor02.png"/>
+							<p>行驶证副本</p>
+							<div>
+								<img src="images/placedor03.png"/>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="butt">
+					<div>立即下单</div>
+					<p>遇到问题，您可以  <a href="###">联系客服</a></p>
+				</div>
+			</form>
+		</div>
+		
+		
+		
+		
+<!--		实名认证弹窗-->
+		<div class="bigtan">
+			<p><img src="images/shiming.png"/></p>
+			<p>您需要完成<span>实名认证</span>才能办理违章哟!</p>
+			<p>
+				<button>稍后认证</button>
+				<a href="authentication.html">立即认证</a>
+			</p>
+		</div>
+		
+		
+		
+		
+		
+		
+		<!--			底部-->
+		<footer>
+			<ul class="clearlr">
+				<li>
+					<a href="homepage.html">
+						首页
+					</a>
+				</li>
+				<li>
+					<a href="indent.html">
+						我的订单
+					</a>
+				</li>
+				<li>
+					<a href="placeanorder.html"   class="active">
+						自助下单
+					</a>
+				</li>
+				<li>
+					<a href="center.html">
+						个人中心
+					</a>
+				</li>
+			</ul>
+	</body>
+	
+	
+	<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/plaeanorder.js" type="text/javascript" charset="utf-8"></script>
+	
+</html>

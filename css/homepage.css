@@ -1,0 +1,222 @@
+body{
+	background: #E5E5E5;
+}
+.banner{
+	position: relative;
+}
+
+.banner img{
+	display: block;
+}
+/*天气*/
+.banner .weather{
+	position: absolute;
+	left: 0.792rem;
+	top: 3rem;
+	z-index: 99999;
+}
+.banner .weather p{
+	font-size: 1rem;
+	color: white;
+	font-family: pingfang;
+}
+.banner .weather p:nth-child(2){
+	font-size: 0.6rem;
+	letter-spacing: 1px;
+	font-family: pingfang;
+}
+.banner .weather p:nth-child(3){
+	font-size: 0.4rem;
+	transform: scale(0.8);
+	margin-top: 0.2rem;
+	margin-left: -10%;
+	font-family: pingfang;
+}
+.banner .weather p:nth-child(3) span{
+	margin-right: 0.5rem;
+}
+
+/*<!--		功能-->*/
+.options{
+	background: white;
+	padding-bottom: 6px;
+}
+.options ul li div{
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 0.6rem;
+	font-family: pingfang;
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+}
+.options ul li div:nth-child(2){
+	width: 50%;
+}
+.options ul li p:nth-child(1){
+	width: 1.5rem;
+	margin: auto;
+	font-size: 32px;
+	vertical-align: bottom;
+}
+.options ul li p:nth-child(1) img{
+	vertical-align: bottom;
+}
+.options ul li:nth-child(n+2){
+	margin-top:13px;
+}
+.options ul li div p:nth-child(2){
+	margin-top: 6px;
+}
+.options ul li:nth-child(2) div:not(:nth-child(3)) p:nth-child(1){
+	width: 1.9rem;
+}
+
+
+
+/*<!--		添加违章-->*/
+.add{
+	margin-top: 9px;
+	background: white;
+	padding: 7px 0;
+	position: relative;
+	padding-bottom: 21px;
+}
+.add .cliadd{
+	position: absolute;
+	left:0.168rem;
+	width: 1.2rem;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.add .bigul{
+	width: 16.8rem;
+	height: 4.6rem;
+	overflow: hidden;
+}
+.add .bigul ul{
+	padding-left: 0.84rem;
+	height: 4.6rem;
+	transition: all 2s;
+	
+}
+.add .bigul ul li{
+	float: left;
+	width: 15.36rem;
+	margin-left: 0.576rem;
+	height: 4.6rem;
+	background: #FFEBBD;
+	border-radius:5px;
+	font-family: pngfang;
+}
+.add .bigul ul li>div:nth-child(1){
+	float: left;
+	height: 100%;
+	width: 2.4rem;
+	margin-left: 0.384rem;
+}
+.add .bigul ul li>div:nth-child(1) div{
+	width: 2.2rem;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: center;
+	margin-top: 1.2rem;
+	color: #FDA056;
+	font-size: 1.2rem;
+	border: 3px solid #FD984A;
+	border-radius:50%;
+}
+.add .bigul ul li>div:nth-child(2){
+	float: left;
+	margin-left: 0.624rem;
+}
+.add .bigul ul li>div:nth-child(2) div{
+	margin-top: 0.576rem;
+	
+}
+.add .bigul ul li>div:nth-child(2) div p:nth-child(1){
+	float: left;
+	font-size: 0.69rem;
+	color: #555555;
+	font-weight: bold; 
+}
+.add .bigul ul li>div:nth-child(2) div p:nth-child(1) img{
+	width: 0.5rem;
+	margin-left: 0.5rem;
+}
+.add .bigul ul li>div:nth-child(2) div p:nth-child(2){
+	float: right;
+	font-size: 0.624rem;
+	color: #FD984A;
+	font-weight: bold; 
+	margin-left: 3.264rem;
+}
+.add .bigul ul li>div:nth-child(2)>p:nth-child(2){
+	margin-top: 0.74rem;
+	font-size: 0.624rem;
+	color: #555555;
+	font-weight: bold;
+	font-family: pingfang;
+}
+.add .bigul ul li>div:nth-child(2)>p:nth-child(3){
+	font-size: 0.624rem;
+	color: #555555;
+	font-weight: bold;
+	font-family: pingfang;
+	margin-top: 0.132rem;
+}
+.add .clictab{
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translateX(-50%);
+	margin: 10px 0;
+	text-align: center;
+}
+.add .clictab ol li{
+	float: left;
+	padding: 5px;
+	background: #E5E5E5;
+	margin: 0 0.3rem;
+	border-radius:50%;
+}
+.add .clictab ol li.active{
+	background: #7F7F7F;
+}
+
+/*<!--		优加分公告专栏-->*/
+.proclamation{
+	margin-top: 0.25rem;
+	background: white;
+	min-height: 120px;
+	margin-bottom: 2.304rem;
+}
+.proclamation div:nth-child(1){
+	border-bottom:1px solid #EFEFEF;
+	padding: 0.3rem 0;
+}
+.proclamation div:nth-child(1) p{
+	font-size: 0.75rem;
+	letter-spacing: 0.08rem;
+	font-family: pingfang;
+	font-weight: bold;
+	color: #666666;
+	margin-left: 1rem;
+	padding: 0;
+	text-indent: 0.4rem;
+	position: relative;
+}
+.proclamation div:nth-child(1) p:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 15%;
+	bottom: 10%;
+	width: 2px;
+	background: #E70618;
+}
+
+
+
+

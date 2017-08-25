@@ -1,0 +1,122 @@
+body,html,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.clearlr:after{
+	content: "";
+	display: block;
+	height: 0;
+	line-height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearlr{
+	zoom: 1;
+}
+@font-face {
+	font-family:pingfang;
+	src: url("../font/PingFang Regular.ttf");
+}
+
+/*头部*/
+header{
+	height: 1.68rem;
+}
+header ul{
+	height: 1.68rem;
+}
+header ul li{
+	float: left;
+	width: 33.333333%;
+	text-align: center;
+	line-height: 1.68rem;
+	font-size: 1rem;
+	letter-spacing: 0.5rem;
+	font-family: pingfang;
+	font-weight: 600;
+}
+header ul li:nth-child(1){
+	text-align: left;
+}
+header ul li:nth-child(1) img{
+	width:8%;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+
+
+/*<!--			底部-->*/
+footer{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 2.304rem;
+	background: #E5E5E5;
+}
+footer ul{
+	margin: 0;
+	padding: 0;
+}
+footer ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+footer ul li a{
+	display: block;
+	font-size: 0.5868rem;
+	font-family: pingfang;
+	color: #333333;
+	font-weight: bold;
+	line-height:3.95rem;
+}
+footer ul li p{
+	
+}
+
+footer ul li:nth-child(1) a{
+	background: url(../images/footer01.png) no-repeat center 0.3rem;
+	background-size:1.176rem auto;
+}
+footer ul li:nth-child(2) a{
+	background: url(../images/footer02.png) no-repeat center 0.25rem;
+	background-size:1rem auto;
+}
+footer ul li:nth-child(3) a{
+	background: url(../images/footer03.png) no-repeat center 0.3rem;
+	background-size:1.1rem auto;
+}
+footer ul li:nth-child(4) a{
+	background: url(../images/footer04.png) no-repeat center 0.3rem;
+	background-size:1rem auto;
+}
+footer ul li:nth-child(1) a.active{
+	background: url(../images/footer0101.png) no-repeat center 0.3rem;
+	background-size:1.176rem auto;
+	color: #FFB300;
+}
+footer ul li:nth-child(2) a.active{
+	background: url(../images/footer0202.png) no-repeat center 0.25rem;
+	background-size:1rem auto;
+	color: #FFB300;
+}
+footer ul li:nth-child(3) a.active{
+	background: url(../images/footer0303.png) no-repeat center 0.3rem;
+	background-size:1.1rem auto;
+	color: #FFB300;
+}
+footer ul li:nth-child(4) a.active{
+	background: url(../images/footer0404.png) no-repeat center 0.3rem;
+	background-size:1rem auto;
+	color: #FFB300;
+}

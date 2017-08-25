@@ -1,0 +1,138 @@
+body{
+	background: #F7F8F8;
+	margin-bottom: 2.304rem;
+}
+
+/*<!--		顶部-->*/
+.heatop{
+	background: #F5B648;
+	height: 1.848rem;
+	line-height: 1.848rem;
+	font-size: 0.8rem;
+	font-family: pingfang;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.heatop ul{
+	margin: 0;
+	padding: 0;
+}
+.heatop ul li{
+	float: left;
+	width: 33.333333%;
+}
+.heatop ul li:nth-child(1) a{
+	display: inline-block;
+}
+.heatop ul li:nth-child(1) img{
+	margin:0 0.7656rem;
+	width: 0.5rem;
+	margin-top: 0.6144rem;
+}
+.heatop ul li:nth-child(2){
+	text-align: center;
+}
+
+
+/*
+填写认证信息*/
+.writetab{
+	margin-top: 2.832rem;
+}
+.writetab .user{
+	
+}
+.writetab .user>div{
+	margin: auto;
+	margin-bottom: 1.7rem;
+	margin-left: 1.992rem;
+}
+.writetab .user>div>span{
+	width: 0.6rem;
+	height: 0.6rem;
+	vertical-align: middle;
+}
+.writetab .user>div>span img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.writetab .user>div div{
+	background: white;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width:12.696rem;
+	vertical-align: middle;
+	padding-bottom: 0.1rem;
+}
+.writetab .user>div div span{
+	display: inline-block;
+	font-size: 0.6rem;
+	font-family: pingfang;
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+	margin-left: 0.2rem;
+	width:3.5rem;
+	vertical-align: middle;
+}
+.writetab .user>div div  input{
+	display: inline-block;
+	outline: none;
+	border: none;
+	font-size: 0.6rem;
+	vertical-align: middle;
+}
+.writetab .user>div div  input::-moz-placeholder{
+	color: #D5D5D5;
+}
+.writetab .user>div div  input::-webkit-input-placeholder{
+	color: #D5D5D5;
+}
+.writetab .user>div div  input::-ms-input-placeholder{
+	color: #D5D5D5;
+}
+.writetab .user>div div  input::placeholder{
+	color: #D5D5D5;
+}
+.writetab .user>p{
+	color: #F5B648;
+	margin-left: 1.992rem;
+	font-size: 0.792rem;
+	letter-spacing: 2px;
+	font-family: pingfang;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.writetab .user .backxz{
+	display: inline-block;
+	width: 6.72rem;
+	margin-left: 0.9rem;
+	font-size: 0;
+}
+.writetab .user .backxz p img{
+	width: 1.056rem;
+	margin-left:1.5rem;
+	vertical-align: middle;
+}
+/*.writetab .user .menu{
+	position: relative;
+}
+.writetab .user .menu ul{
+	position: absolute;
+	background: white;
+	left: 0;
+	right: 0;
+	border: 1px solid #EAEAEA;
+}
+.writetab .user .menu ul li{
+	background: white;
+	text-align: center;
+	font-size: 0.6rem;
+	padding: 0.2rem 0;
+}
+.writetab .user .menu ul li:nth-child(n+2){
+	border-top: 1px solid #EAEAEA;
+}*/
