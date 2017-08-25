@@ -136,3 +136,25 @@ body{
 .writetab .user .menu ul li:nth-child(n+2){
 	border-top: 1px solid #EAEAEA;
 }*/
+
+
+
+.writetab>a{
+	display: block;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	background: #F5B648;
+	border-radius:1rem;
+	outline: none;
+	color: black;
+	font-family: pingfang;
+	padding: 0.2rem 0;
+	font-size: 0.95rem;
+	font-weight: bold;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0.5rem;
+}
+
