@@ -41,7 +41,8 @@ body{
 	background: white;
 	padding-bottom: 6px;
 }
-.options ul li div{
+.options ul li a{
+	display: block;
 	float: left;
 	width: 25%;
 	text-align: center;
@@ -51,7 +52,7 @@ body{
 	color: #666666;
 	letter-spacing: 1px;
 }
-.options ul li div:nth-child(2){
+.options ul li a:nth-child(2){
 	width: 50%;
 }
 .options ul li p:nth-child(1){
@@ -66,10 +67,10 @@ body{
 .options ul li:nth-child(n+2){
 	margin-top:13px;
 }
-.options ul li div p:nth-child(2){
+.options ul li a p:nth-child(2){
 	margin-top: 6px;
 }
-.options ul li:nth-child(2) div:not(:nth-child(3)) p:nth-child(1){
+.options ul li:nth-child(2) a:not(:nth-child(3)) p:nth-child(1){
 	width: 1.9rem;
 }
 
