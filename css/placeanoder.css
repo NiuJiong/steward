@@ -67,6 +67,28 @@ body{
 	display: inline-block;
 	margin-left: 0.4rem;
 }
+.shengfen{
+	position: absolute;
+	background: #E4E4E4;
+	top: 4rem;
+	left: 0;
+	right: 0;
+	padding:0.312rem 0.192rem;
+	z-index: 99999;
+}
+.shengfen ul{
+	margin: 0;
+	padding: 0;
+}
+.shengfen ul li{
+	float: left;
+	margin: 0.29rem;
+	width: 1.608rem;
+	background: white;
+	text-align: center;
+	font-size:0.8rem ;
+	font-family: pingfang;
+}
 .write form>.impor:nth-child(1) .xiala p{
 	font-size: 0.672rem;
 	font-family: pingfang;
@@ -97,6 +119,23 @@ body{
 	color: #CCCCCC;
 	font-family: pingfang;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .write form textarea{
 	resize: none;
 	border: 1px solid #F7F7F7;

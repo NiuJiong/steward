@@ -1,0 +1,188 @@
+body{
+	background: #F7F8F8;
+	margin-bottom: 2.688rem;
+}
+
+
+
+/*<!--		顶部-->*/
+.heatop{
+	background: #F5B648;
+	height: 1.848rem;
+	line-height: 1.848rem;
+	font-size: 0.8rem;
+	font-family: pingfang;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.heatop ul{
+	margin: 0;
+	padding: 0;
+}
+.heatop ul li{
+	float: left;
+	width: 33.333333%;
+}
+.heatop ul li:nth-child(1) a{
+	display: inline-block;
+}
+.heatop ul li:nth-child(1) img{
+	margin:0 0.7656rem;
+	width: 0.5rem;
+	margin-top: 0.6144rem;
+}
+.heatop ul li:nth-child(2){
+	text-align: center;
+}
+
+		
+/*<!--		违章车辆列表-->*/
+.list{
+	margin-top:0.624rem;
+}
+.list>ul{
+	margin: 0 0.7128rem;
+	
+}
+.list>ul>li{
+	margin-bottom: 0.6rem;
+	background: white;
+	border: 1px solid #E8E8E8;
+	border-radius:5px;
+}
+
+
+
+
+.list>ul>li>div:nth-child(1){
+	border-bottom: 1px solid #F6F6F6;
+}
+.list>ul>li>div{
+	font-family: pingfang;
+}
+.list>ul>li>div:nth-child(1) p:nth-child(1){
+	float: left;
+	font-size: 0.6rem;
+	font-weight: bold;
+	margin:0.5rem 0.5rem;
+}
+.list>ul>li>div:nth-child(1) p:nth-child(2){
+	float: left;
+	font-size: 0.5rem;
+	color: white;
+	background: #F8CBBE;
+	margin: 0.5rem 0.5rem;
+	padding: 0 0.5rem;
+	margin-left: 2.12rem;
+}
+.list>ul>li>div:nth-child(1) p:nth-child(3){
+	float: right;
+	font-size: 0.6rem;
+	color: #3B76D8;
+	margin: 0.5rem 0.5rem;
+}
+
+
+
+
+.list>ul>li>div:nth-child(2){
+	border-bottom: 1px dashed #E9E9E9;
+}
+.list>ul>li>div:nth-child(2) ul{
+	margin-top: 0.816rem;
+	padding-bottom: 0.55rem;
+}
+.list>ul>li>div:nth-child(2) ul li{
+	margin-bottom: 0.2rem;
+}
+.list>ul>li>div:nth-child(2) ul li div{
+	float:left;
+}
+.list>ul>li>div:nth-child(2) ul li div:nth-child(1){
+	width: 5.114rem;
+	font-size: 0.576rem;
+	text-align: right;
+	font-family: pingfang;
+	color: #999999;
+}
+.list>ul>li>div:nth-child(2) ul li div:nth-child(2){
+	width: 10.5rem;
+	font-size: 0.576rem;
+	font-family: pingfang;
+	font-weight: bold;
+	color: #666666;
+	line-height: 0.9rem;
+}
+
+
+
+
+
+.list>ul>li>div:nth-child(3){
+	
+}
+.list>ul>li>div:nth-child(3) div{
+	float: left;
+	width: 24.7%;
+	text-align: center;
+	margin: 0.2rem 0;
+	padding: 0.15rem 0;
+	
+}
+.list>ul>li>div:nth-child(3) div:not(:nth-child(1)){
+	border-left:1px solid #EDEDED;
+}
+.list>ul>li>div:nth-child(3) div p{
+	font-size: 0.6rem;
+	color:#666666;
+}
+.list>ul>li>div:nth-child(3) div p:nth-child(2){
+	font-size: 0.6rem;
+	color:#666666;
+	margin-top: 0.1rem;
+	color: #3B76D8;
+}
+
+
+
+.fukuan{
+	position: fixed;
+	background: white;
+	height:2.688rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: 1px solid #ECECEC;
+	padding: 0 0.718rem;
+}
+.fukuan div{
+	float: left;
+}
+.fukuan div p{
+	font-size: 0.672rem;
+	font-family: pingfang;
+}
+	
+.fukuan div p:nth-child(1){
+	margin-top: 0.324rem;
+}
+.fukuan div p span{
+	color:#F5B648;
+}
+
+.fukuan button{
+	display: block;
+	float: right;
+	border: none;
+	outline: none;
+	background: #F5B648;
+	color:white;
+	font-family: pingfang;
+	border-radius:3px;
+	width:4rem;
+	height: 2.2rem;
+	margin-top: 0.244rem;
+	font-size: 0.8rem;
+}
