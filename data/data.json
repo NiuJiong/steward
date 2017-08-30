@@ -1,14 +1,22 @@
 [
 	{
-		"haoma":"浙A·11111"
+		"haoma":"浙A·11111",
+		"fenshu":"1",
+		"jine":"100"
 	},
 	{
-		"haoma":"浙A·22222"
+		"haoma":"浙A·22222",
+		"fenshu":"2",
+		"jine":"200"
 	},
 	{
-		"haoma":"浙A·33333"
+		"haoma":"浙A·33333",
+		"fenshu":"3",
+		"jine":"300"
 	},
 	{
-		"haoma":"浙A·44444"
+		"haoma":"浙A·44444",
+		"fenshu":"4",
+		"jine":"400"
 	}
 ]

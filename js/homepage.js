@@ -24,10 +24,10 @@ $(function() {
 				"</p>" +
 				"</div>" +
 				"<p>" +
-				"扣分<span>"+5+"</span>分" +
+				"扣分<span>"+data[index].fenshu+"</span>分" +
 				"</p>" +
 				"<p>" +
-				"罚款<span>"+250+"</span>元" +
+				"罚款<span>"+data[index].jine+"</span>元" +
 				"</p>" +
 				"</div>" +
 				"</li>";
