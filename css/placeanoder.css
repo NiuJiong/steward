@@ -220,8 +220,12 @@ body{
 	background: #F5B648;
 	font-size: 0.8rem;
 	text-align: center;
-	width: 95%;
+	width: 80%;
 	margin: auto;
+}
+.write .butt div a{
+	display: block;
+	color: black;
 }
 .write .butt p{
 	text-align: center;

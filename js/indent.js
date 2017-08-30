@@ -6,8 +6,8 @@ $(function(){
 
 		
 		var con = $(".main .content:eq("+index+")").children().length;
-		
-		if(con){
+		console.log(con);
+		if(con>0){
 			$(".main .meiyou").removeClass("active");
 			$(".main .content").removeClass("active");
 			$(".main ul li:eq("+index+")").find(".content").addClass("active");

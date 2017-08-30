@@ -84,23 +84,66 @@ body{
 	position: relative;
 	padding-bottom: 21px;
 }
+.add  .addcar{
+	width: 90%;
+	margin: auto;
+	background: #FADBB7;
+	border-radius: 2px;
+	text-align: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.8rem;
+	display: none;
+}
+.add  .addcar.active{
+	display: block;
+}
+.add  .addcar a{
+	display: block;
+	width: 1.104rem;
+	height: 1.104rem;
+	margin: auto;
+}
+.add  .addcar a img{
+	width: 1.104rem;
+	height: 1.104rem;
+}
+.add  .addcar p:nth-child(2){
+	font-size: 0.6rem;
+	font-family: pingfang;
+	color: #333333;
+	margin-top: 0.3rem;
+	letter-spacing: 0.05rem;
+}
+.add  .addcar p:nth-child(3){
+	font-size: 0.384rem;
+	font-family: pingfang;
+	transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	margin-top: 0.4rem;
+	letter-spacing: 0.08rem;
+	
+}
+
 .add .cliadd{
 	position: absolute;
 	left:0.168rem;
 	width: 1.2rem;
 	top: 50%;
 	transform: translateY(-50%);
+	display: none;
 }
+
 .add .bigul{
 	width: 16.8rem;
 	height: 4.6rem;
 	overflow: hidden;
+	display: none;
 }
+
 .add .bigul ul{
 	padding-left: 0.84rem;
 	height: 4.6rem;
-	transition: all 1s;
-	
+	transition: all 1s;	
 }
 .add .bigul ul li{
 	float: left;
@@ -174,7 +217,10 @@ body{
 	transform: translateX(-50%);
 	margin: 10px 0;
 	text-align: center;
+	display: none;
 }
+	
+
 .add .clictab ol li{
 	float: left;
 	padding: 5px;
@@ -182,6 +228,7 @@ body{
 	margin: 0 0.3rem;
 	border-radius:50%;
 }
+
 .add .clictab ol li.active{
 	background: #7F7F7F;
 }
@@ -221,3 +268,12 @@ body{
 
 
 
+.add .cliadd.active{
+	display: block;
+}
+.add .bigul.active{
+	display: block;
+}
+.add .clictab.active{
+	display: block;
+}
