@@ -2,7 +2,7 @@ $(function() {
 	//添加订单
 	function add(data) {
 		
-		$.each(data, function(index, value) {
+		$.each(data, function(index, value){
 			
 		
 
@@ -17,7 +17,7 @@ $(function() {
 				"<div class='clearlr'>" +
 				"<p>" +
 				"<span>" + data[index].haoma + "</span>" +
-				"<img src='images/genggai.png' />" +
+				"<a href=''><img src='images/genggai.png' /></a>" +
 				"</p>" +
 				"<p>" +
 				"<span>未处理违章</span>" +
