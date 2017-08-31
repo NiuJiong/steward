@@ -83,7 +83,7 @@ form div:nth-child(1) span img{
 form div span img{
 	width: 0.8rem;
 }
-form div:nth-child(2) button{
+form div:nth-child(2) div{
 	position: absolute;
 	z-index: 99999;
 	border: none;
@@ -98,7 +98,7 @@ form div:nth-child(2) button{
 	padding: 0.2rem 0;
 	text-align: center;
 }
-form div:nth-child(2) button.active{
+form div:nth-child(2) div.active{
 	background: #CCCCCC;
 	color: white;
 	letter-spacing: 0.1rem;
